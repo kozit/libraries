@@ -1,0 +1,19 @@
+﻿namespace Memory
+{
+	function Reset()
+	{
+		set_label(0);
+		set_variable(0);
+		// Add actual memory drop here when implemented.
+	}
+
+	function Move($to, $from)
+	{
+		content($to, $from);
+	}
+
+	function Link($to, $from)
+	{
+		address($to, $from);
+	}
+}
